@@ -18,12 +18,6 @@
     --border-radius: 5px;
 }
 
-/*
-html {
-    overflow-x: hidden;
-}
-*/
-
 h1,
 h2 {
     color: var(--color-heading);
@@ -131,6 +125,12 @@ a.nav-link:hover {
     background-color: var(--color-background-pink);
     border-radius: var(--border-radius);
     border: 0;
+}
+
+.card.card-body.p-0 {
+    color: var(--color-text);
+    font-family: var(--font-text);
+    font-weight: 300;
 }
 
 .btn-primary {
