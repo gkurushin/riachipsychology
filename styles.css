@@ -127,7 +127,7 @@ a.nav-link:hover {
     border: 0;
 }
 
-.card.card-body.p-0 {
+.card {
     color: var(--color-text);
     font-family: var(--font-text);
     font-weight: 300;
