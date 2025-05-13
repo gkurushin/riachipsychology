@@ -131,10 +131,19 @@ a.nav-link:hover {
     border: 0;
 }
 
+#therapy-info .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .card {
     color: var(--color-text);
     font-family: var(--font-text);
     font-weight: 300;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .btn-primary {
