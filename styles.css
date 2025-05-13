@@ -125,12 +125,6 @@ a.nav-link:hover {
     border-radius: var(--border-radius);
 }
 
-.card {
-    background-color: var(--color-background-pink);
-    border-radius: var(--border-radius);
-    border: 0;
-}
-
 #therapy-cards .col {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -138,12 +132,14 @@ a.nav-link:hover {
 }
 
 .card {
+    background-color: var(--color-background-pink);
+    border-radius: var(--border-radius);
+    border: 0;
     color: var(--color-text);
     font-family: var(--font-text);
     font-weight: 300;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 }
 
 .btn-primary {
