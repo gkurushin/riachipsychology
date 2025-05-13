@@ -131,7 +131,7 @@ a.nav-link:hover {
     border: 0;
 }
 
-#therapy-info .col {
+#therapy-cards .col {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
