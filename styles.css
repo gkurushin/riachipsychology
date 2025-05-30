@@ -163,11 +163,16 @@ a.nav-link:hover {
 }
 
 #convenience {
+    background-image: url("background-section.jpg");
     background-color: var(--color-baclkground-blue);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#convenience section .row {
+    min-height: 500px;
 }
 
 #privacy .card {
@@ -236,6 +241,15 @@ footer .col-logo {
 @media (max-width: 768px) {}
 
 @media (max-width: 576px) {
+
+    #convenience {
+        background-image: none;
+        background-color: var(--color-baclkground-blue);
+    }
+
+    #convenience section .row {
+        min-height: initial;
+    }
 
     .hide-mobile {
         display: none;
